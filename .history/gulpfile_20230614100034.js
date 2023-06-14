@@ -108,5 +108,5 @@ const resources = () => {
 exports.styles = styles
 exports.scripts = scripts
 exports.htmlMinify = htmlMinify
-exports.default = series(clean, resources, htmlMinify, scripts, styles, images, svgSprites, watchFiles)
+exports.default = series(clean, resources htmlMinify, scripts, styles, images, svgSprites, watchFiles)
 exports.prodaction = series(clean, resources, scripts, styles, images, svgSprites, watchFiles)
