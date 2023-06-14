@@ -1,0 +1,542 @@
+@import 'common.scss';
+
+.header__list-item-link:focus-visible{
+    padding:  4px 10px;
+    color: #FFFFFF;
+    background:#AA9DFA;
+    outline: none;
+}
+
+.header__list-item-link:hover{
+    color: #6D31EE;
+    }
+
+.header__list-item-link:active{
+    color:#4F28A5;
+    }
+
+.header-down__item-link:focus-visible{
+    padding:  3px 5px;
+    color: #FFFFFF;
+    background:#AA9DFA;
+    outline: none;
+}
+.header-down__item-link:hover{
+    color: #6D31EE;
+    }
+
+.header-down__item-link:active{
+    color:#4F28A5;
+    }
+
+.btn-enter:focus-visible {
+    color: $color_darktext;
+    background-color: #AA9DFA;
+
+}
+.btn-style:focus-visible{
+    border-radius: 100px;
+    border:  2px solid $color_darktext;
+}
+
+.btn-enter:hover {
+    color: white;
+    background-color: #121723;
+
+}
+.btn-enter:active{
+    color: white;
+    background-color:  #4F28A5;
+
+}
+
+.btn-search:hover {
+    rect{
+        fill: #AA9DFA;
+    }
+    path{
+        fill:transparent;
+       stroke: #AA9DFA;
+    }
+}
+
+.btn-search:focus-visible {
+    rect{
+        fill:  #AA9DFA;
+    }
+    path{
+        fill:transparent;
+       stroke:  #AA9DFA;
+    }
+    outline: none;
+}
+
+.btn-search:active {
+    rect{
+        fill: #4F28A5;
+    }
+    path{
+        fill:transparent;
+       stroke: #4F28A5;
+    }
+}
+
+//*--------------------------------------modal windows login-----------------------------------------------*//
+.close:focus-visible{
+    circle{
+        stroke: #AA9DFA;
+    }
+    path{
+        stroke: #AA9DFA;
+    }
+}
+.close:hover{
+    circle{
+        stroke: #6D31EE;
+    }
+    path{
+        stroke: #6D31EE;
+    }
+}
+.close:active{
+    circle{
+        stroke: #4F28A5;
+    }
+    path{
+        stroke: #4F28A5;
+    }
+}
+
+.btn-login:hover{
+    background: #AA9DFA;
+}
+.btn-login:focus-visible{
+    background: #AA9DFA;
+border: 2px solid #4F28A5;
+outline: none;
+}
+.btn-login:active{
+    background: #4F28A5;
+    border: 2px solid transparent;
+}
+
+.login-field:focus-visible{
+    background: #292E39;
+    border: 1px solid #AA9DFA;
+}
+
+.login-field:hover{
+    background: #292E39;
+}
+
+
+.login-field:active{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.modal__social-icon:focus-visible{
+    path{
+        fill: #AA9DFA;
+    }
+}
+.modal__social-icon:hover{
+    path{
+        fill:#6D31EE;
+    }
+}
+.modal__social-icon:focus-visible{
+    path{
+        fill: #AA9DFA;
+    }
+}
+.modal__social-icon:active{
+    path{
+        fill: #4F28A5;
+    }
+}
+
+.ether:hover{
+    path{
+        stroke:#6D31EE;
+        fill: none;
+
+    }
+        circle{
+        stroke: #6D31EE;
+        }
+
+}
+.ether:focus-visible{
+    path{
+       stroke:#AA9DFA;
+       fill: none;
+       circle{
+        stroke: #AA9DFA;
+        }
+}
+}
+.ether:active{
+
+    path{
+        fill: white;
+
+
+    }
+    circle{
+       fill: #4F28A5;
+
+        }
+}
+
+
+.btn-hero:hover{
+    background: #AA9DFA;
+}
+
+
+.btn-hero:active{
+    background: #4F28A5;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+}
+
+.btn-hero:focus-visible{
+    background: #AA9DFA;
+border: 2px solid #4F28A5;
+outline: none;
+color: #FFFFFF;
+}
+
+.podcast__list-card:hover{
+    .podcast-play-btn{
+        circle{
+            stroke: #6D31EE;
+        }
+         path{
+            fill: #6D31EE;
+         }
+    }
+}
+
+.podcast__list-card:focus-visible{
+    .podcast-play-btn{
+        circle{
+            stroke:  #AA9DFA;
+        }
+         path{
+            fill:  #AA9DFA;
+         }
+    }
+}
+
+
+.podcast__list-card:active{
+    .podcast-play-btn{
+        circle{
+            fill:  #4F28A5;;
+        }
+         path{
+            fill:  white;
+         }
+    }
+}
+
+.btn-podcast:hover{
+    color: white;
+    background: #6D31EE;
+}
+.btn-podcast:focus-visible{
+    color: white;
+    background:  #AA9DFA;
+    border:transparent;
+    outline: none;
+}
+.btn-podcast:active{
+    color: white;
+    background: #4F28A5;
+
+}
+
+.broadcast__list-card:hover{
+    .broadcast-item-link{
+        color:#6D31EE;
+    }
+    svg{
+        stroke: #6D31EE;
+    }
+    .broadcast-image{
+        opacity: 0.7;
+        color: grayscale($color: #000000);
+    }
+}
+
+.broadcast__list-card:focus-visible{
+    outline-offset: 1px;
+    outline-color: #4F28A5;
+    .brodcast_item_block{
+        background-color: #AA9DFA;
+        padding-right: 20px;
+    }
+    .broadcast_item_link{
+        color:white;
+    }
+    svg{
+        stroke: #FFFFFF;
+    }
+}
+.broadcast__list-card:active{
+    .broadcast_item_link{
+        color:#4F28A5;
+    }
+    svg{
+        stroke: #4F28A5;
+    }
+    .broadcast_image{
+
+        opacity: 0.7;
+        color: grayscale($color: #000000) ;
+    }
+}
+.btn-archive:hover {
+    color: white;
+    background-color: #121723;
+
+}
+.btn-archive:focus-visible {
+    color: $color_darktext;
+    background-color: #AA9DFA;
+
+}
+.btn-archive:active{
+    color: white;
+    background-color:  #4F28A5;
+
+}
+.text-tabs-name:hover{
+    color: #AA9DFA;
+}
+.text-tabs-name:active{
+    color: #6D31EE;
+}
+.btn-guest:hover{
+    background-color: #AA9DFA;
+    color: #FFFFFF;
+}
+.btn-guest:focus-visible{
+    background-color: #6D31EE;
+    color: #FFFFFF;
+}
+.btn-guest:active{
+    background-color: #4F28A5;
+    color: #FFFFFF;
+}
+
+.guest-social-icon:focus-visible{
+    path{
+        fill: #AA9DFA;
+    }
+}
+.guest-social-icon:hover{
+    path{
+        fill:#6D31EE;
+    }
+}
+.guest-social-icon:focus-visible{
+    path{
+        fill: #AA9DFA;
+    }
+}
+.guest-social-icon:active{
+    path{
+        fill: #4F28A5;
+    }
+}
+.playlist-card:hover{
+    .playlist-play{
+display: block;
+    }
+    .background-card{
+        display: block;
+    }
+    .playlist-card-title{
+        background-color:  #6D31EE;
+        border:none;
+    }
+    .playlist-item {
+        color: white;
+    }
+    .playlist-card-descr{
+        color:white;
+    }
+}
+
+.playlist-card:focus-visible{
+    .playlist-play{
+display: block;
+    }
+    .background-card{
+        display: block;
+    }
+    .playlist-card-title{
+        background-color:   #AA9DFA;
+        border:none;
+    }
+    .playlist-item {
+        color:  #121723;
+    }
+    .playlist-card-descr{
+        color: #121723;
+    }
+}
+
+.playlist-card:active{
+    .playlist-play{
+        display: block;
+            img{
+                 width: 110%;
+            }
+        }
+    }
+    .background-card{
+        display: block;
+
+    }
+    .playlist-card-title{
+        background-color:   #4F28A5;
+        border:none;
+    }
+    .playlist-item {
+        color:  white;
+    }
+    .playlist-card-descr{
+        color: white;
+    }
+
+label:focus-visible{
+    input{
+        border: 2px solid #999;
+    background: #D2D5DD;
+      }
+    }
+
+
+    label:hover{
+        input{
+            border: 2px solid #6D31EE;
+
+          }
+        }
+
+    .btn-adwert:hover{
+        background-color: #F0D288;
+        .btn-adwert-text{
+             color: #121723;
+        }
+        .btn-adwert-text::before {
+            content: url(' images/btn_adwerthover.png');
+        }
+        }
+
+        .btn-adwert:focus-visible{
+            background-color: #BB973E;
+            border: 2px solid #F0D288;
+            outline: none;
+            .btn-adwert-text{
+                 color: #121723;
+            }
+                    }
+    .btn-adwert:active{
+          background-color:  #BB973E;
+          border: none;
+          .btn-adwert-text{
+               color: #121723;
+          }
+          .btn-adwert-text::before {
+              content: url(' images/btn_adwertactive.png');
+          }
+          }
+
+
+          .btn-form:hover{
+            background: #AA9DFA;
+
+          }
+
+
+
+        .btn-form:active{
+            background: #4F28A5;
+            color: #FFFFFF;
+            border: 2px solid transparent;
+        }
+        .btn-form:focus-visible{
+            background: #AA9DFA;
+        border: 2px solid #4F28A5;
+        outline: none;
+        color: #FFFFFF;
+        }
+
+
+        .btn-next:hover  {
+            background-image: url( images/round_hover.png);
+            rotate: 90deg;
+        }
+        .btn-prew:hover  {
+            background-image: url( images/round_hover.png);
+            rotate: 270deg;
+        }
+        .btn-next:active  {
+            background-image: url( images/round_fill.png);
+            rotate: 90deg;
+        }
+        .btn-prew:active  {
+            background-image: url( images/round_fill.png);
+            rotate: 270deg;
+        }
+
+        .number-form1:hover {
+            background-color: #292E39;
+        }
+        .number-form2:hover{
+            background-color:  #292E39;
+        }
+
+        .number-form1:focus {
+            background-color: #292E39;
+            border: 1px solid #AA9DFA;
+        }
+        .number-form1:active {
+            background-color: transparent;
+            placeholder:active{
+                color: #FFFFFF;
+            }
+
+        }
+        .text-form::placeholder:active{
+            color: #FFFFFF;
+        }
+        .footer-social-icon:focus-visible{
+            path{
+                fill: #AA9DFA;
+            }
+        }
+        .footer-social-icon:hover{
+            path{
+                fill:#6D31EE;
+            }
+        }
+
+        .footer-social-icon:active{
+            path{
+                fill: #4F28A5;
+            }
+        }
+        .footer-list-item-text:hover{
+            color:#AA9DFA;
+        }
+        .footer-list-item-text:active{
+            color:#6D31EE;
+        }
